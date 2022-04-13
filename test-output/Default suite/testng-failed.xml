@@ -6,4 +6,14 @@
       <class name="SSinSelenium.screenshot"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="SSinSelenium.screenshot">
+        <methods>
+          <include name="ScreenshotsDemo"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- SSinSelenium.screenshot -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
